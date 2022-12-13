@@ -9,12 +9,12 @@ Main entities:
 - [`mount`](reference/app.md#mount-helper): main entry point for most application: mount a component to a target
 - [`xml`](reference/templates.md#inline-templates): helper to define an inline template
 
-Reactivity
+Reactivity 不理解这个反应性是什么意思?
 
-- [`useState`](reference/reactivity.md#usestate): create a reactive object (hook, linked to a specific component)
-- [`reactive`](reference/reactivity.md#reactive): create a reactive object (not linked to any component)
-- [`markRaw`](reference/reactivity.md#markraw): mark an object or array so that it is ignored by the reactivity system
-- [`toRaw`](reference/reactivity.md#toraw): given a reactive objet, return the raw (non reactive) underlying object
+- [`useState`](reference/reactivity.md#usestate): create a reactive object (hook, linked to a specific component) 钩子,连接到组件
+- [`reactive`](reference/reactivity.md#reactive): create a reactive object (not linked to any component) 创建反应式对象,未连接组件
+- [`markRaw`](reference/reactivity.md#markraw): mark an object or array so that it is ignored by the reactivity system 标记为原始
+- [`toRaw`](reference/reactivity.md#toraw): given a reactive objet, return the raw (non reactive) underlying object 返回原始对象
 
 Lifecycle hooks:
 
